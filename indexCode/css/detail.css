@@ -1,0 +1,44 @@
+body{background-color: #fff;}
+.album-details{width: 980px; margin: 0 auto; padding-bottom: 20px;}
+/*面包屑导航*/
+.album-details .breadcrumb-nav { height: 77px; color: #abadae; font-size: 14px; line-height: 77px; }
+/*产品介绍*/
+.details-left {width:418px; margin-right: 30px;}
+.details-right{width:532px;}
+.album-details img{display: block;}
+.album-details .like{padding: 10px 0; text-align: right;}
+/*右侧*/
+.album-name{font-size: 16px; font-weight: bold;}
+.album-info-li{height: 310px;  line-height: 24px;}
+.album-info-li li{margin-bottom: 20px;}
+.album-info-li li:first-child{border-bottom: 1px solid #ddd; padding-bottom: 20px;}
+.album-info-li .li-name{display:inline-block;width: 80px;color: #999; font-size: 14px;}
+.album-info-li .li-price{font-size: 30px;color: #ff2c72;margin-right: 20px;}
+.album-info-li .original-price{color: #999; font-size: 12px;}
+.li-info img{display: inline; vertical-align: middle;}
+.details-btn-box .add-cart{width: 170px; height: 50px;cursor: pointer; margin-right:10px;
+							background: url(../img/detail_btn_v1_04.png) no-repeat -10px -10px;}
+.details-btn-box .buy-now{margin-right: 10px; width: 170px; height: 50px; cursor: pointer;
+							background: url(../img/detail_btn_v1_04.png) no-repeat -10px -68px;}
+
+/*关于购买数量的样式*/
+
+.count a{display: inline-block;width: 24px;height: 30px;
+	background: #eaeaea;color: #fff;
+	vertical-align: middle;text-align: center;
+	font-size: 20px;line-height: 25px;cursor: pointer;}
+.count input{width: 42px;height: 28px;border: 1px solid #c9c9c9;
+	color: #333739;vertical-align: middle;text-align: center;font-size: 14px;}
+.count .inventory{margin-left: 15px;color: #999;font-size: 12px;}
+.count .inventory .in-count{color: #666;font-style: normal}
+
+
+/*放大镜功能样式*/
+.pics-box{position:relative;}
+.small_box{width:418px;height:418px;border:1px solid #ddd;}
+.small_box img{width: 100%;}
+.small_box .mask{position:absolute;width:100%;height:100%;background:rgba(0,0,0,0.5);opacity:0;z-index:2;cursor:move;}
+.small_box .float_layer{position:absolute;width:200px;height:200px;background:rgba(0,0,0,0.5);display:none;}
+.big_box{position:absolute;left:420px;top:0;width:418px;height:418px;overflow:hidden;display:none; border:1px solid #ddd;}
+.big_box img{position:absolute;}
+

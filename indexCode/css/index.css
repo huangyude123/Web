@@ -1,0 +1,50 @@
+/*banner 图*/
+.banner-box img{display: block;}
+/*追星必备*/
+.scene-box-main img{display: block;}
+.scene-box-main li{width: 200px;float: left; margin-right: 18px;}
+.scene-box-main li p{color: #999; text-align: center; font-size: 14px; background: #fff; line-height: 32px;}
+/*top榜单*/
+.top-list-title{background: url(../img/shop_title2.png) no-repeat 0 -50px; height: 50px;}
+.top-list-main ul li{float: left; margin-right: 16px;}
+.top-list-main ul li:last-child{margin: 0;}
+.top-list-main img{display: block;}
+.top-list-main h6{line-height: 45px; font-size: 14px; text-align: center; background: #fff; font-weight: bold;}
+/*新品首发*/
+.new-pro-title{background: url(../img/shop_title2.png) no-repeat 0 -100px; height: 50px;}
+.new-pro-main a{display: block; float: left;width: 392px; height: 190px;background: #fff; margin:0 10px 10px 0;}
+.new-pro-main a:nth-child(3n){margin-right: 0;}
+.new-pro-main a:hover dl{border-bottom:2px solid #ff2c72;}
+.new-pro-main img{ display: block; width: 100%;}
+.new-pro-main dl{}
+.new-pro-main dt{float: left; width: 190px; height: 190px;}
+.new-pro-main dd{margin-left: 215px;padding: 35px 25px 0 0;}
+.new-pro-main .goods-name{font-size: 14px; line-height: 24px; height: 48px; overflow: hidden; color: #666;}
+.new-pro-main .goods-price{color: #ff2c72; font-size: 16px;margin: 10px 0 13px;}
+
+
+/*轮播功能添加样式*/
+.banner-box{position: relative; height: 389px; width: 1200px; overflow: hidden;}
+.pics-list{height: 389px; width: 6000px;position: absolute;left: 1200;}
+.pics-list li{float: left;width: 1200px;}
+.points-list{position: absolute;left: 50%;bottom: 10px; margin-left: -100px;}
+.points-list li{display:inline-block;padding: 0 5px;font-size: 24px;color: #999;
+                opacity: 0.6;cursor: pointer}
+.points-list li.active,.points-list li:hover{color:#ddd;}
+.prev,.next{width: 72px;height: 72px;position: absolute;
+            background: url(../img/icon/banner_arrow.png) no-repeat;top: 155px;}
+.prev {left: 0;background-position: -10px 0;}
+.prev:hover {background-position: -10px -72px;}
+.next {right: -14px;background-position: 0 -144px;}
+.next:hover {background-position: 0 -216px;}
+
+/*top榜切换效果添加样式*/
+.top-list-title{text-align: center;}
+.top-list-title .title {display: inline-block;width: 63px;
+    border-radius: 10px;
+    color: #333;line-height: 19px;
+    margin-top: 15px;cursor: pointer;}
+.top-list-title .active{background-color: #ff2c72;color: #fff;}
+.top-list-main{position: relative; height: 183px; overflow: hidden;}
+.top-list-main ul{position: absolute;left:0;display: none;}
+.top-list-main ul:first-child{display: block;}

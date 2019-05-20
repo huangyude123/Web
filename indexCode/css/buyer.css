@@ -1,0 +1,19 @@
+body{background-color: #fff;}
+.buyer-page{width: 1000px; margin: 20px auto; padding: 10px 0 30px 0;}
+/*标题导航*/
+.page-head{margin-bottom: 30px;height:160px;}
+.page-head .page-title{font-size: 44px; color: #de4767; text-align: center; line-height: 90px;}
+.page-head .page-nav{ width: 500px; background: #f4f4f4;padding:0 250px;}
+.page-head .page-nav li{float: left; width: 100px;height: 70px;
+						background: url(../img/buyer/mod_circle.png) no-repeat center 10px;}
+.page-head .page-nav li a{display: block; text-align: center; padding-top: 45px;}
+.page-head .page-nav li.on,.page-head .page-nav li:hover{background-position: center -90px;}
+/*主内容区*/
+.page-content .mod-title{ padding: 30px 0 15px;}
+.page-content div{border:2px solid #ddd; border-radius: 10px; padding:20px; text-align: center;}
+.page-content div img{display: inline; padding:15px 0;}
+.page-content div p{font-size:14px; line-height: 32px; text-indent:2em; text-align:left;}
+.page-content div p.bgc,.page-content div p strong{font-size:16px;}
+.page-content div p strong.f14{font-size:14px;}
+.page-content div p em{color:#e02950; font-style: normal;}
+.page-content div p.bgc{background:#e64560; color:#fff; font-weight:bold; padding:5px 10px;}
